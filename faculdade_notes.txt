@@ -1,0 +1,3 @@
+## NOTES
+
+If you want to view the code in the classes, go to the file named src/faculdade.
