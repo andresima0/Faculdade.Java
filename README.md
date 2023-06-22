@@ -11,25 +11,25 @@ Create a class hierarchy that allows registering all relevant information for ea
 
 For all students:
 
-void registerAbsences(int quantity): Adds the specified quantity of absences to the student's record.
+`void registerAbsences(int quantity)`: Adds the specified quantity of absences to the student's record.
 
-double attendanceRate(): Returns the percentage of attendance for the student, i.e., the percentage of classes attended compared to the total number of classes. Consider that the total number of classes is always 60.
+`double attendanceRate()`: Returns the percentage of attendance for the student, i.e., the percentage of classes attended compared to the total number of classes. Consider that the total number of classes is always 60.
 
-boolean passed(): Returns true if the student passed or false if not. Regular students need to have an average grade of 6.0 or higher for both exams and at least 75% attendance rate. Consider that the course has 60 classes in the semester. Assistant students need to have at least 75% attendance rate and have submitted the final course summary.
+`boolean passed()`: Returns true if the student passed or false if not. Regular students need to have an average grade of 6.0 or higher for both exams and at least 75% attendance rate. Consider that the course has 60 classes in the semester. Assistant students need to have at least 75% attendance rate and have submitted the final course summary.
 
-void transcript(): Prints all information related to the student, including attendance rate, exam grades, average grade (for regular students), whether they submitted the summary (for assistant students), and the final result (passed or not).
+`void transcript()`: Prints all information related to the student, including attendance rate, exam grades, average grade (for regular students), whether they submitted the summary (for assistant students), and the final result (passed or not).
 
 For regular students:
 
-void registerGrades(double grade1, double grade2): Stores the grades for the student's exams.
+`void registerGrades(double grade1, double grade2)`: Stores the grades for the student's exams.
 
-double average(): Returns the average grade for the two exams.
+`double average()`: Returns the average grade for the two exams.
 
-void excuseAbsences(int quantity): Excuses the specified quantity of absences. The total number of excused absences during the semester cannot exceed 5.
+`void excuseAbsences(int quantity)`: Excuses the specified quantity of absences. The total number of excused absences during the semester cannot exceed 5.
 
 For assistant students:
 
-void submitSummary(): Records that the student has submitted the required summary.
+`void submitSummary()`: Records that the student has submitted the required summary.
 
 ##
 
@@ -44,22 +44,22 @@ Faça uma hierarquia de classes que permita registrar todas as informações rel
 
 Para todos os alunos:
 
-void registrarFaltas(int qtd): Adiciona a quantidade faltas informada para o aluno.
+`void registrarFaltas(int qtd)`: Adiciona a quantidade faltas informada para o aluno.
 
-double frequencia(): Retorna a porcentagem de freqüência do aluno, ou seja, a porcentagem de aulas que ele assistiu em relação ao total de aulas. Considere que o total de aulas é sempre 60.
+`double frequencia()`: Retorna a porcentagem de freqüência do aluno, ou seja, a porcentagem de aulas que ele assistiu em relação ao total de aulas. Considere que o total de aulas é sempre 60.
 
-boolean aprovado(): Retorna true se o aluno foi aprovado ou false se não foi. Os alunos regulares precisam ter média maior ou igual a 6.0 nas duas provas e pelo menos 75% de freqüência nas aulas. Considere que a disciplina tem 60 aulas no semestre. Para os alunos assistentes é preciso ter pelo menos 75% de freqüência e ter entregado o resumo final.
+`boolean aprovado()`: Retorna true se o aluno foi aprovado ou false se não foi. Os alunos regulares precisam ter média maior ou igual a 6.0 nas duas provas e pelo menos 75% de freqüência nas aulas. Considere que a disciplina tem 60 aulas no semestre. Para os alunos assistentes é preciso ter pelo menos 75% de freqüência e ter entregado o resumo final.
 
-void historico(): Imprime todas as informações relacionadas ao aluno, inclusive a freqüência, as notas das provas e a média (para regulares) e se entregou o resumo (para assistentes) e o resultado final (aprovado ou não).
+`void historico()`: Imprime todas as informações relacionadas ao aluno, inclusive a freqüência, as notas das provas e a média (para regulares) e se entregou o resumo (para assistentes) e o resultado final (aprovado ou não).
 
 Para os alunos regulares:
 
-void registrarNotas(double nota1, double nota2): Armazena as notas das provas do aluno.
+`void registrarNotas(double nota1, double nota2)`: Armazena as notas das provas do aluno.
 
-double media(): Retorna a média das duas provas.
+`double media()`: Retorna a média das duas provas.
 
-void abonarFaltas(int qtd): abona a quantidade de faltas informada. O total de faltas abonadas durante o semestre não pode ser maior que 5.
+`void abonarFaltas(int qtd)`: abona a quantidade de faltas informada. O total de faltas abonadas durante o semestre não pode ser maior que 5.
 
 Para os alunos assistentes:
 
-void receberResumo( ): Registra a informação que o aluno entregou o resumo exigido.
+`void receberResumo( )`: Registra a informação que o aluno entregou o resumo exigido.
